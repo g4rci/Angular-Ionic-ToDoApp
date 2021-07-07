@@ -19,7 +19,7 @@ export class Tab1Page {
 
   async agregarLista() {
     const alert = await this.alertCtrl.create({
-      header: 'Nuea lista',
+      header: 'Editar Titulo',
       inputs: [
         {
           name: 'titulo',

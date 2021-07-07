@@ -28,6 +28,16 @@ export class DeseosService {
      this.guardarStorage();
    }
 
+   editarTitulo(lista: Lista){
+      const totuloEditar = '';
+
+      this.listas.filter( (list) =>  {
+        if ( list.titulo === lista.titulo){
+
+        }
+      });
+   }
+
    obtenerLista( id: string | number ){
      id = Number( id );
 
