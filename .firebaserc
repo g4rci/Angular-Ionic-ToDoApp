@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "todoapp-31b3f"
+  },
+  "targets": {
+    "todoapp-31b3f": {
+      "hosting": {
+        "app": [
+          "todoapp-31b3f"
+        ]
+      }
+    }
+  }
+}

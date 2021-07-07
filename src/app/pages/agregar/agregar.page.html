@@ -1,5 +1,5 @@
 <ion-header no-border>
-  <ion-toolbar color="dark">
+  <ion-toolbar color="">
 
     <ion-buttons slot="start">
       <ion-back-button color="tertiary" defaultHref="/"></ion-back-button>
@@ -9,10 +9,10 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content color="dark">
+<ion-content color="">
 
   <ion-list>
-    <ion-item color="dark">
+    <ion-item color="">
       <ion-label position="floating">Agregar Subtarea</ion-label>
       <ion-input type="text" 
                 [(ngModel)]="nombreItem"
@@ -22,13 +22,13 @@
   </ion-list>
 
   <ion-list>
-    <ion-list-header color="dark">
+    <ion-list-header color="">
       <ion-label>Tareas Pendientes</ion-label>
     </ion-list-header>
 
     <ion-item-sliding *ngFor="let item of lista.items; let i = index"
                       class="animated fadeInDown">
-      <ion-item color="dark">
+      <ion-item color="">
         <ion-checkbox slot="start" 
                       color="tertiary"
                       [(ngModel)]="item.completado"
